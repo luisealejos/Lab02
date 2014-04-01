@@ -1,0 +1,4 @@
+class Match < ActiveRecord::Base
+	belongs_to :group
+	belongs_to :stadium
+end

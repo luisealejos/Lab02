@@ -1,0 +1,6 @@
+class CreateStadium < ActiveRecord::Migration
+  def change
+    create_table :stadia do |t|
+    end
+  end
+end

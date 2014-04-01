@@ -1,0 +1,13 @@
+class CreateTeams < ActiveRecord::Migration
+  def change
+    create_table :teams do |t|
+      t.string :country
+      t.string :coach
+      t.string :url_flag
+      t.string :url_uniform
+      t.text :description
+
+      t.timestamps
+    end
+  end
+end

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  city: MyString
+  construction: 2014-04-01
+  capacity: 1
+  url_picture: MyString
+
+two:
+  name: MyString
+  city: MyString
+  construction: 2014-04-01
+  capacity: 1
+  url_picture: MyString
